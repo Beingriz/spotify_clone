@@ -5,67 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <nav>
-        <div id="men">
-            <a href="https://www.spotify.com"><img src="#" alt="logo" /></a>
-            <a href="#">Home</a>
-            <a href="#">Search</a>
-            <a href="#">Your Library</a>
+    <div class="container">
+        <div id="sidebar">
+            <div class="logo">
+                <!-- <a href="https://www.spotify.com"><img src="./assets/Spotify logo (2).svg" alt="logo" /></a> -->
+                <a href="https://www.spotify.com"><img src="./assets/Spotify logo (2).svg" alt="logo" /></a>
+            </div>
+            <div id="menu">
+                <ol class="menu-list">
+                    <li><img src="./assets/fi-ss-home.svg" alt="">Home</li>
+                    <li><img src="/assets/01 align center.svg" alt="">Search</li>
+                    <li><img src="/assets/library.svg" alt="">Library</li>
+                </ol>
+            </div>
+            <div id="menu">
+                <ol class="menu-list">
+                    <li><span id="img1"><img src="./assets/fi-ss-plus-small.svg" alt=""></span>Create Playlist</li>
+                    <li><span id="img2"><img src="./assets/fi-ss-heart.svg" alt=""></span>Liked Songs</li>
+                    <li><span id="img3"><img src="./assets/Group.svg" alt=""></span>Your Episodes</li>
+                </ol>
+            </div>
         </div>
-        <div id="playlist_menu">
-            <a href="#">Create Playlist</a>
-            <a href="#">Liked Songs</a>
-            <a href="#">Your Episodes</a>
-        </div>
-    </nav>
-    <section>
-        <h1>Good Morning</h1>
-        <div id="card">
-            <a href="#">Liked Songs</a>
-            <a href="#">Netflix Playlist</a>
-            <a href="#">K/DA</a>
-            <a href="#">Dannce/ Electronic Mix</a>
+        <div id="main-section">
+
         </div>
 
-        <div class="sub-menu">
-            <h2>Shows you might like</h2>
-            <a href="#">See All</a>
-        </div>
 
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-        <div class="album-card">
-            <img src="#" alt="album-icon">
-            <h5>Album1</h5>
-            <span>Short Description about Album</span>
-        </div>
-    </section>
+    </div>
+
     <footer>
         <audio src="">Palying Current Song</audio>
     </footer>
