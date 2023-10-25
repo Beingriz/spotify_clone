@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,700;1,9..40,400&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 230px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+}
+
+.logo img {
+    width: 131px;
+    height: 40px;
+    margin-top: 19px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.menu>ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-list {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.menu-list li {
+    display: flex;
+    width: 210px;
+    height: 40px;
+    flex-shrink: 0;
+    align-items: center;
+    margin-left: 10px;
+    padding: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.menu-list>li>span {
+    background-color: white;
+}
+
+.menu>ol>li:hover {
+    border-radius: 4px;
+    background: #282828;
+}
+
+.menu>ol>li>img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.menu-header {
+    margin: 25px 0px 20px 0px;
+    padding-left: 24px;
+}
+
+.menu-header h5 {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+#img1 {
+    width: 37.057px;
+    height: 37.057px;
+    border-radius: 1px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#img2 {
+    display: flex;
+    width: 37.057px;
+    height: 37.057px;
+    border-radius: 1px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.bar {
+    width: 184px;
+    height: 1px;
+    background-color: #282828;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    position: absolute;
+}
+
+.thumbnail img {
+    position: fixed;
+    width: 230px;
+    height: 230px;
+    bottom: 100px;
+    left: 0;
+}
+
+.album-art {}

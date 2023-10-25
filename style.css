@@ -268,11 +268,11 @@
 }
 
 .footer {
+    width: 100vw;
     position: sticky;
-    height: 112px;
+    height: 90px;
     background: #181818;
     bottom: 30px;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -280,6 +280,7 @@
 }
 
 .bottom {
+    width: 100vw;
     height: 30px;
     display: flex;
     justify-content: right;
@@ -292,7 +293,6 @@
     line-height: normal;
     position: sticky;
     bottom: 0px;
-    width: 100%;
 }
 
 .bottom p {
