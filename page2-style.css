@@ -8,21 +8,29 @@
 
 .container {
     display: flex;
-    height: 90vh;
 }
 
 nav {
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: auto;
     background-color: #000000;
 }
 
 section {
-    flex: 8;
+    flex: 7;
     background: #000;
-    height: 90vh;
+    height: auto;
+}
+
+footer {
+    height: 100px;
+    background: #181818;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
@@ -142,8 +150,8 @@ section {
 .card {
     display: flex;
     align-items: center;
-    width: 900px;
-    height: 240px;
+    width: 75%;
+    height: 10%;
     margin-left: 0px;
     padding-top: 150px;
     box-sizing: border-box;
@@ -323,14 +331,6 @@ section {
     margin: 10;
 }
 
-footer {
-    height: 10vh;
-    background: #181818;
-    display: flex;
-    position: sticky;
-    bottom: 0px;
-}
-
 .song-details {
     width: 237px;
     margin-left: 11px;
@@ -461,7 +461,140 @@ footer {
     .song-details {
         display: none;
     }
-    footer {
-        width: 100vh;
+    .details {
+        text-align: left;
+        padding-inline: auto;
+    }
+    .card img {
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        display: flex;
+    }
+    .sound-bar {
+        width: auto;
+        height: 5px;
+        border-radius: 2.5px;
+        background: #C4C4C4;
+        margin-right: 20px;
+    }
+    .details {
+        text-align: left;
+        padding-top: 25px;
+    }
+    .details>span {
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.26px;
+    }
+    .details>p {
+        color: #e7e7e7;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 146.9%;
+        /* 20.566px */
+        letter-spacing: -0.28px;
+    }
+    .insight {
+        display: flex;
+        align-items: center;
+    }
+    .insight>p {
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 146.9%;
+        margin: 2px;
+        letter-spacing: -0.3px;
+    }
+    .insight>span {
+        width: 4px;
+        height: 4px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        background-color: white;
+        margin: 5px;
+    }
+    .details>h3 {
+        padding-inline: 0px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+    }
+}
+
+@media screen and (min-width:768px)and(max-width:900px) {
+    .song-details {
+        display: none;
+    }
+    .details {
+        text-align: left;
+        padding-inline: auto;
+    }
+    .card img {
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        display: flex;
+    }
+    .sound-bar {
+        width: auto;
+        height: 5px;
+        border-radius: 2.5px;
+        background: #C4C4C4;
+        margin-right: 20px;
+    }
+    .details {
+        text-align: left;
+        padding-top: 25px;
+    }
+    .details>span {
+        color: #FFF;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.26px;
+    }
+    .details>p {
+        color: #e7e7e7;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 146.9%;
+        /* 20.566px */
+        letter-spacing: -0.28px;
+    }
+    .insight {
+        display: flex;
+        align-items: center;
+    }
+    .insight>p {
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 146.9%;
+        margin: 2px;
+        letter-spacing: -0.3px;
+    }
+    .insight>span {
+        width: 4px;
+        height: 4px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        background-color: white;
+        margin: 5px;
+    }
+    .details>h3 {
+        padding-inline: 0px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
     }
 }
