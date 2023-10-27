@@ -437,15 +437,10 @@ footer {
 
 .options {
     height: 70px;
-    width: 360px;
+    width: 180px;
     margin-right: 30px;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.options img {
-    margin-right: 20px;
 }
 
 .sound-bar {
